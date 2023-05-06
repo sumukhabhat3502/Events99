@@ -1,0 +1,38 @@
+name: eventss
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  get: ^4.6.5
+  connectivity_plus: ^2.3.6
+  shared_preferences: ^2.0.15
+  cached_network_image: ^3.2.1
+  flutter_svg: ^1.1.6
+  google_sign_in: ^5.0.7
+  flutter_slidable: ^2.0.0
+  readmore: ^2.1.0
+  outline_gradient_button: ^2.0.0+1
+  flutter_svg_provider: ^1.0.3
+  intl: ^0.17.0
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Open Sauce One
+      fonts: 
+        - asset: assets/fonts/OpenSauceOneBold.ttf
+          weight: 700
+        - asset: assets/fonts/OpenSauceOneRegular.ttf
+          weight: 400
+        - asset: assets/fonts/OpenSauceOneMedium.ttf
+          weight: 500
+        - asset: assets/fonts/OpenSauceOneSemiBold.ttf
+          weight: 600
